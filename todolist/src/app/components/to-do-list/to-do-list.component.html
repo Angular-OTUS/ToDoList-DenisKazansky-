@@ -1,0 +1,43 @@
+<div class="container">
+    <h1>Список популярных фреймворков Node.js</h1>
+    <mat-list>
+        <mat-list-item>
+            <div class="list-item">
+                <a href="https://expressjs.com/">Express.js</a>
+                <button mat-icon-button>
+                    <mat-icon aria-label="Example icon-button with a heart icon">delete outline</mat-icon>
+                </button>
+            </div>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <div class="list-item">
+                <a href="https://koajs.com/">Koa.js</a>
+                <button mat-icon-button>
+                    <mat-icon aria-label="Example icon-button with a heart icon">delete outline</mat-icon>
+                </button>
+            </div>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>
+            <div class="list-item">
+                <a href="https://nestjs.com/">Nest.js</a>
+                <button mat-icon-button>
+                    <mat-icon aria-label="Example icon-button with a heart icon">delete outline</mat-icon>
+                </button>
+            </div>
+        </mat-list-item>
+    </mat-list>
+
+    <form>
+        <mat-form-field class="add-frame">
+            <input matInput placeholder="Введите название" value="">
+            <mat-hint>Название фреймворка</mat-hint>
+        </mat-form-field>
+        <mat-form-field class="add-frame">
+            <input matInput placeholder="Введите ссылку" value="">
+            <mat-hint>Ссылка на фреймворк</mat-hint>
+        </mat-form-field>
+        <button mat-raised-button class="btn">Добавить</button>
+    </form>
+</div>

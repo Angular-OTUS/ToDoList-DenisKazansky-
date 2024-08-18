@@ -1,0 +1,33 @@
+$height: 80px;
+
+.btn {
+    border-radius: 0%;
+    margin: 0px 10px;
+    max-height: $height
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-frame {
+    max-height: $height
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+}
+
